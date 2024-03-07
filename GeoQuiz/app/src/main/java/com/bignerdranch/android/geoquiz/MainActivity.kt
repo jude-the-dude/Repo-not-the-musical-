@@ -1,3 +1,15 @@
+package com.bignerdranch.android.geoquiz
+
+import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
+import android.util.Log
+import android.view.View
+import android.widget.Button
+import android.widget.Toast
+import androidx.activity.viewModels
+import com.bignerdranch.android.geoquiz.databinding.ActivityMainBinding
+import com.google.android.material.snackbar.Snackbar
+
 private  const val TAG = "MainActivity"
 
 class MainActivity : AppCompatActivity() {
